@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="14">
+ <tileset firstgid="1" name="4x4 grey_wall_topdown" tilewidth="32" tileheight="32" spacing="10" tilecount="16" columns="4">
+  <image source="../tilesets/4x4 grey_wall_topdown.png" width="158" height="158"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="csv">
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,9,8,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,13,16,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+13,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,16
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="4" name="wall" type="Block" x="0" y="0" width="640" height="8"/>
+  <object id="5" name="wall" type="Block" x="0" y="632" width="640" height="8"/>
+  <object id="6" name="wall" type="Block" x="0" y="8" width="8" height="624"/>
+  <object id="7" name="wall" type="Block" x="632" y="8" width="8" height="624"/>
+  <object id="9" name="player" x="256" y="224" width="32" height="32"/>
+  <object id="11" name="enemy" x="352" y="224" width="32" height="32"/>
+  <object id="13" name="wall" x="288" y="192" width="64" height="96"/>
+ </objectgroup>
+</map>
